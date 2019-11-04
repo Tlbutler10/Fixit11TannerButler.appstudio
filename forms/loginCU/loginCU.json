@@ -54,6 +54,15 @@
         "Elements", 
         "lblResult.json"
       ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "loginCU", 
+        "Elements", 
+        "btnNextPage.json"
+      ]
     }
   ], 
   "class": "", 

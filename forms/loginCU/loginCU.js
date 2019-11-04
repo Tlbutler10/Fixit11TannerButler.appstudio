@@ -27,3 +27,9 @@ btnLogin.onclick=function(){
     }
 
 }
+
+
+
+btnNextPage.onclick=function(){
+  ChangeForm(favFoods)
+}

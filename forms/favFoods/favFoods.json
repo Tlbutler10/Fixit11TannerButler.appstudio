@@ -16,7 +16,7 @@
         "forms", 
         "favFoods", 
         "Elements", 
-        "Listgroup1.json"
+        "lsgFoods.json"
       ]
     }, 
     {
@@ -25,7 +25,16 @@
         "forms", 
         "favFoods", 
         "Elements", 
-        "Button1.json"
+        "btnNext1.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "favFoods", 
+        "Elements", 
+        "lblFoods.json"
       ]
     }
   ], 
@@ -43,7 +52,7 @@
   "onhide": "", 
   "onkeypress": "", 
   "onresize": "", 
-  "onshow": "", 
+  "onshow": "favFoods.onshow()", 
   "openMode": "none", 
   "parentForm": "", 
   "position": "absolute", 
