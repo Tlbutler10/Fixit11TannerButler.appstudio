@@ -16,3 +16,11 @@ selExercises.onfocusout=function(){
 }
 
 
+
+btnExcercises1.onclick=function(){
+  NSB.MsgBox(`You chose ${selExercises.text[0]} and ${selExercises.text[1]}.` )
+}
+
+btnExercises.onclick=function(){
+  ChangeForm(mobileNav)
+}
